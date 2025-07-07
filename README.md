@@ -25,12 +25,13 @@ pip install -r requirements.txt
 ```
 ## 配置 
 mkdir -r  ~/.metagpt  && cp ./config2.yaml ~/.metagpt/config2.yaml
+修改配置
 ## 使用方法
 
 ### 命令行
 
 ```bash
-python main.py "A beautiful sunset over a mountain lake with reflections in the water"
+python main.py "A beautiful sunset over a mountain lake with reflections in the water" -c ~/.metagpt/config2.yaml
 ```
 （例句可替换为中文，如："一轮美丽的夕阳映照在山间湖泊上，水中倒影清晰可见"）
 

@@ -80,7 +80,6 @@ def main(
         idea (str): The drawing idea/prompt to process.
     """
     Config.CONFIG_YAML = config_path
-    workflow_path = Config.get_workflow_path()
     idea = str(idea)
     logger.info(f"Processing drawing idea: {idea}")
     asyncio.run(
