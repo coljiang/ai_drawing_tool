@@ -1,0 +1,18 @@
+llm:
+  api_type: 'openai' # or azure / ollama / groq etc. Check LLMType for more options
+  api_key: 'sk-'
+  model: 'gpt-4.1' # or gpt-3.5-turbo
+  base_url: 'https://api..com/v1'
+search:
+  api_type: 'serper' # serpapi/google/serper/ddg
+  api_key: ''
+  cse_id: 'YOUR_CSE_ID' # only for google
+  params:
+    engine: serper # google/bing/yahoo/baidu/yandex, check https://serpapi.com/bing-search-api for more details
+    google_domain: 'google.serper.dev'
+    gl: us
+    hl: en
+comfy:
+  json_path : '/txt2pic.json' #comfyUI 工作流文件的绝对地址
+  api: 'https://5135m'
+  proxy : 'http://127.0.0.1:7890'
